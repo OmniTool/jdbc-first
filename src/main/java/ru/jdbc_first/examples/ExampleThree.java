@@ -91,7 +91,7 @@ public class ExampleThree {
                 + "USERNAME VARCHAR(20) NOT NULL, "
                 + "CREATED_BY VARCHAR(20) NOT NULL, "
                 + "CREATED_DATE DATE NOT NULL, " + "PRIMARY KEY (USER_ID) "
-                + ")";
+                + ")"; //-
 
         try {
             dbConnection = getDBConnection();
